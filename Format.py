@@ -137,9 +137,9 @@ class VOC:
                     obj_name.text = element["objects"][str(i)]["name"]
                     xml_object.append(obj_name)
 
-                    obj_pose = Element("pose")
+                    """"obj_pose = Element("pose")
                     obj_pose.text = "Unspecified"
-                    xml_object.append(obj_pose)
+                    xml_object.append(obj_pose)""""
 
                     obj_truncated = Element("truncated")
                     obj_truncated.text = "0"
